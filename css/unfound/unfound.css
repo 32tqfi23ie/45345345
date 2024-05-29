@@ -1,0 +1,40 @@
+.errorText{
+    font-family: Roboto Thin;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+}
+
+.errorText a {
+    font-family: Franklin Gothic;
+    color: rgba(255, 255, 255, 0.301);
+    text-decoration: none;
+    font-size: 1.8vw;
+    transition: color 1s, transform 0.8s;
+}
+
+.errorText a:hover{
+    color: white;
+    transform: scale(1.6);
+}
+
+
+.top{
+
+    margin-bottom: 15vh;
+}
+
+.catImg-container{
+    margin-bottom:2px;
+}
+.catImg-container img{
+    max-height:auto;
+    max-width:60vw;
+    min-width: 34vw;
+    height:auto;
+    pointer-events:none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
