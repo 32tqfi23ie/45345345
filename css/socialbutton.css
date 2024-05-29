@@ -1,0 +1,48 @@
+.social-button{
+    font-family:Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+    height:35px;
+    width:100px;
+    background-color:#000;
+    color:#fff;
+    border-color:hsla(0,0%,100%,.164);
+    font-size:17px;
+    letter-spacing:0;
+    font-weight:medium;
+    transition:opacity .255s,color 1.5s,scale .71s,border-color 1.5s,transform .71s,box-shadow .32s;
+    border-radius:1px;
+    border-width:2.42px;
+    cursor:pointer;
+    margin:5px 4px;
+    opacity:.3
+}
+.social-button:hover{
+    color:#ffb2d7;
+    border-color:#ffb2d7;
+    transform:scale(1.24);
+    opacity:.9;
+    border-style:solid;
+    box-shadow:3px 3px 6px hsla(0,0%,100%,.16470588235294117)
+}
+.social-button:active{
+    opacity:.2
+}
+.discord-button:hover{
+    border-color:#5865f2!important;
+    color:#5865f2!important
+}
+.yt-button:hover{
+    border-color:#d32709!important;
+    color:#d32709!important
+}
+.twitch-button:hover{
+    border-color:#5c16c5!important;
+    color:#5c16c5!important
+}
+.twitter-button:hover{
+    border-color:#3a9deb!important;
+    color:#3a9deb!important
+}
+.insta-button:hover{
+    border-color:#ef4778!important;
+    color:#ef4778!important
+}
