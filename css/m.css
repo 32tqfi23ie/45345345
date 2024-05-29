@@ -1,0 +1,47 @@
+body{
+    background-color:#000;
+    color:#fff;
+    margin:20px 18vw 0;
+    font-family:arial;
+    user-select:none;
+    scrollbar-color:#090909;
+}
+.container{
+    -ms-overflow-style:none;
+    scrollbar-width:none
+}
+.container::-webkit-scrollbar,::-webkit-scrollbar{
+    display:none
+}
+.page-title{
+    color:#fff;
+    opacity:.8;
+    margin:3px;
+    letter-spacing:-2px;
+    font-size:3vw;
+    font-weight:220;
+    font-family:Roboto Mono,Arial;
+    vertical-align:baseline;
+    transition:scale .1
+}
+
+.copyright{
+    color:#fff;
+    text-align:right;
+    font-size:12px;
+    width:290px;
+    margin-left:auto;
+    opacity:.1;
+    margin-right:10;
+    margin-top:0
+}
+.copyright-container{
+    margin-top: auto;
+    margin-left: 60vw;
+    width: 300px;
+}
+.copyright:hover{
+    text-decoration:dotted;
+    transition:opacity 2s;
+    opacity:1
+}
