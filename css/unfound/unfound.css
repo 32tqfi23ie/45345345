@@ -16,6 +16,7 @@
 }
 
 .errortextTitle{
+    opacity: 0.89;
     font-family: Roboto Thin;
     font-size: 3vw;
     text-align: center;
