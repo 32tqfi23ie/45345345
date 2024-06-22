@@ -1,7 +1,9 @@
+
 body{
     background-color:#000;
     color:#fff;
-    margin:20px 18vw 0;
+    margin: auto;
+    width: 50%;
     font-family:arial;
     user-select:none;
     scrollbar-color:#090909;
@@ -22,7 +24,7 @@ body{
     font-weight:220;
     font-family:Roboto Mono,Arial;
     vertical-align:baseline;
-    transition:scale .1
+    transition:scale .1;
 }
 
 .copyright{
@@ -33,7 +35,7 @@ body{
     margin-left:auto;
     opacity:.1;
     margin-right:10;
-    margin-top:0
+    margin-top:0;
 }
 .copyright-container{
     margin-top: auto;
@@ -43,5 +45,8 @@ body{
 .copyright:hover{
     text-decoration:dotted;
     transition:opacity 2s;
-    opacity:1
+    opacity:1;
 }
+
+
+
