@@ -1,0 +1,47 @@
+.text1 {
+
+    font-family: Franklin Gothic;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.catImg-container{
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.catImg-container img {
+
+    margin: auto;
+    opacity: 80%;
+
+}
+
+.gohome {
+
+    margin:auto;
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.gohome a {
+    font-family: Franklin Gothic;
+    color: rgba(255, 255, 255, 0.301);
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 1s, transform 1s;
+}
+
+.gohome a:hover{
+    color: white;
+    transform:scale(1.3);
+}
+
