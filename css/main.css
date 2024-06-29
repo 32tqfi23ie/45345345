@@ -1,39 +1,377 @@
-.coverImg-container{
-    width:80vw;
-    height:auto;
-    margin-bottom:2px
-}
-.coverImg-container img{
-    margin:20px;
-    max-height:auto;
-    max-width:60vw;
-    height:auto;
-    width:auto;
-    pointer-events:none
-}
-.social-button-container{
-    width:60vw;
-    height:auto;
-    margin-left:20px;
-    margin-bottom:2px;
-    transform-box:scale(60vw)
+body {
+  background-image: url('../images/page-bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.spacer-lol{
-    width:5px;
-    color:#000;
-    user-select:text;
-    font-size:10px
+.main {
+
+  margin: auto;
+  margin-top: 35px;
+  display: block;
+  border-radius: 3;
+  border-color: white;
+
 }
 
-.page-title:hover{
-    color:#fff;
-    opacity:1;
-    transform:scale(1.05)
+.pagebox {
+  background-color: rgba(0, 0, 0, 0.603);
+  border: 2px;
+  border-color: rgba(37, 37, 37, 0.349);
+  border-style: solid;
+  border-radius: 10px;
+  padding: 3vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
-.page-subtitle{
-    font-size:.8vw;
-    margin-left:1vw;
-    margin-top:0;
-    color:#949494
+
+.pfp {
+  margin: auto;
+  margin-bottom: 2px;
+  width: 50%;
+  width: 190px;
+  height: 190px;
+  position: relative;
+  align-self: center;
+  overflow: hidden;
+  border-color: white;
+  border-radius: 50%;
+  border: 2px;
+  border-color: white;
+}
+
+.pfp img {
+  pointer-events:none;
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilename {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  text-align: center;
+  font-size: 42px;
+
+}
+
+  .bio {
+
+  color: rgba(255, 255, 255, 0.295);
+  font-style: italic;
+  text-align: center;
+  font-size: 15px;
+
+  }
+
+.social-button-container {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social-button a {
+
+  border-radius: 10% !important;
+  width: 10px !important;
+
+}
+
+.topbar {
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, 0.075);
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  height: 14px;
+  position: fixed;
+  opacity: 15%;
+  transition: opacity 1s, height 1s, background-colour 1s, color 1s;
+}
+
+.topbar:hover {
+  margin-bottom: 40px;
+  opacity: 80%;
+  color: white;
+}
+
+.topbar-contents a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(141, 141, 141);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: scale 0.5s, color 0.5s;
+
+}
+
+.topbar-contents a:hover {
+
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-aspect-ratio : 10/9) {
+
+  .main {
+
+      margin: auto;
+      margin-top: 35px;
+      width: 50%;
+
+  }
+
+  .pagebox {
+
+      margin: auto;
+      width: 330px;
+      padding: 3vw;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+  }
+
+  .pfp {
+      margin: auto;
+      margin-bottom: 2px;
+      width: 50%;
+      width: 190px;
+      height: 190px;
+    }
+
+    .profilename {
+
+      margin: 10px;
+      font-size: 42px;
+
+    }
+
+
+    .social-button-container {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .social-button {
+
+      background-color: rgba(0, 0, 0, 0.568) !important;
+
+    }
+
+    .social-button:active {
+
+      background-color: white !important;
+      color: black !important;
+      opacity: 88% !important;
+      border-color: rgba(77, 77, 77, 0.712);
+
+    }
+
+    .social-button a {
+
+      border-radius: 10% !important;
+      width: 10px !important;
+
+    }
+
+    .topbar {
+      padding: 15px;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin-left: calc(50% - 50vw);
+      width: 100vw;
+      height: 14px;
+      position: fixed;
+      opacity: 15%;
+    }
+
+    .topbar:hover {
+      margin-bottom: 40px;
+      opacity: 80%;
+      color: white;
+    }
+
+    .topbar-contents a {
+      font-size: 17px;
+      margin-left: 10px;
+      margin-right: 10px;
+      transition: scale 0.5s, color 0.5s;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*mobile layout*/
+
+@media only screen and (max-aspect-ratio : 9/9) {
+
+  .mobile-spacer{
+
+    margin: 100px;
+
+  }
+ 
+  .main {
+
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+.pagebox {
+    margin-top: 40px;
+    margin: auto;
+    width: 650px;
+    padding: 3vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-width: 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.527) !important;
+    border-color: rgb(10, 10, 10) !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-blend-mode: screen;
+    background-size: cover;
+    position: relative;
+}
+
+.pfp {
+    margin: auto;
+    margin-bottom: 2px;
+    width: 50%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .profilename {
+
+    margin: 10px;
+    font-size: 77px;
+
+  }
+
+  .bio {
+    margin: auto;
+    width: 470px;
+    font-size: 30px;
+
+  }
+
+
+  .social-button-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .social-button a {
+
+    border-radius: 10% !important;
+    width: 10px !important;
+
+  }
+
+  .topbar {
+    padding: 17px;
+    padding-top: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 18px;
+    position: fixed;
+    opacity: 63%;
+    scale: 2;
+  }
+
+  .topbar:hover {
+    margin-bottom: 40px;
+    opacity: 80%;
+    color: white;
+  }
+
+  .topbar-contents a {
+    color: rgb(90, 90, 90) !important;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: scale 0.5s, color 0.5s;
+    font-weight: normal !important;
+
+  }
+
+  .social-button {
+
+    margin-bottom: 10px !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+    height:70px !important;
+    width:560px !important;
+    font-size: 40px !important;
+    border-width: 4px !important;
+    border-radius: 20px !important;
+    opacity: 90 !important;
+    background-color: rgba(95, 95, 95, 0.39) !important;
+
+  }
+
+  .social-button:hover {
+
+    transform: scale(1.1) !important;
+
+  }
+
+  .social-button:active {
+
+    background-color: white !important;
+    color: black !important;
+
+  }
+
+  .copyright {
+
+    width: 140px !important;
+
+  }
+
 }
