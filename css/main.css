@@ -99,7 +99,7 @@ body {
   width: 100vw;
   height: 14px;
   position: fixed;
-  opacity: 15%;
+  opacity: 25%;
   transition: opacity 1s, height 1s, background-colour 1s, color 1s;
 }
 
