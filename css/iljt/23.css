@@ -58,7 +58,7 @@
 
     .standardSidebarView_c25c6d {
       backdrop-filter: blur(10px);
-      background-image: url("https://pbs.twimg.com/media/GUPhVS_XkAAP2Al?format=jpg&name=large") !important; /*changes settings page bg*/
+      background-image: url("https://taiar.ro/images/chaibg2.png") !important; /*changes settings page bg*/
       background-color: transparent !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -125,7 +125,7 @@
 
     .content_a4d4d9 {
       backdrop-filter: blur(10px);
-      background-image: url("https://pbs.twimg.com/media/GUPhVS_XkAAP2Al?format=jpg&name=large") !important; /*changes main bg*/
+      background-image: url("https://taiar.ro/images/chaibg2.png") !important; /*changes main bg*/
       background-color: transparent !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -144,7 +144,7 @@
 
 .chat_a7d72e {
   backdrop-filter: blur(10px);
-  background-image: url("https://pbs.twimg.com/media/GUPhVS_XkAAP2Al?format=jpg&name=large") !important; /*changes main bg*/
+  background-image: url("https://taiar.ro/images/chaibg2.png") !important; /*changes main bg*/
   background-color: transparent !important;
   background-image: url();
   background-repeat: no-repeat;
