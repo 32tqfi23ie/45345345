@@ -1,0 +1,390 @@
+/**
+ * @name ilovejuli
+ * @author Taiarro
+ * @description i love juli
+ * @version 1.0.0
+ * @authorId 538146596764909598
+*/
+
+:root {
+  --juli-softpink: #FCDEED;
+  --juli-softpink2: #fcdeed3b;
+  --idle-grey: #ffffff4f;
+  --juli-softbrown: #322C28;
+  --juli-softbrown-dark: #1f1a17;
+  --background-secondary: #322c28 !important;
+  --background-secondary-alt: #18151386 !important;
+  --modal-background: transparent !important;
+  --modal-footer-background: transparent !important;
+  --background-floating: transparent !important;
+}
+
+.contentWrapper_af5dbb, .contentWrapper_af5dbb div {
+  background-color: transparent !important;
+  backdrop-filter: blur(5px) brightness(0.8);
+}
+.autocomplete_bcc24e {
+  background-color: transparent !important;
+  backdrop-filter: blur(5px) brightness(0.8);
+}
+
+.searchResultsWrap_c2b47d, .searchHeader_b7c924 {
+  background-color: transparent !important;
+  backdrop-filter: blur(5px) brightness(0.8);
+}
+
+[id="emoji-picker-tab-panel"] div {
+  background-color: transparent !important;
+  backdrop-filter: blur(5px) brightness(0.8);
+}
+
+[href="/channels/@me/846883555590275103"] {
+  color: var(--juli-softpink) !important;
+  background-color: rgba(20, 0, 0, 0.651);
+}
+
+
+
+
+/*title bar, and server list*/
+    .titleBar_a934d8 {
+      background-color: var(--juli-softbrown-dark);
+    }
+
+    .scroller_fea3ef {
+      background-image: linear-gradient(var(--juli-softbrown), #14110f) !important;
+      filter: var(--background-secondary);
+    }
+
+    .standardSidebarView_c25c6d {
+      backdrop-filter: blur(10px);
+      background-image: url("https://pbs.twimg.com/media/GUPhVS_XkAAP2Al?format=jpg&name=large") !important; /*changes settings page bg*/
+      background-color: transparent !important;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .circleIconButton_db6521, .container_a47d49 /*server + button, and server options button*/ {
+      background-color: transparent !important;
+    }
+
+  /*settings tab profile card*/
+    .accountProfileCard_b69b77 {
+      background-color: transparent !important;
+      backdrop-filter: blur(5px) brightness(0.8);
+    }
+
+    .fieldList_b69b77, .background_b69b77, .sidebarRegionScroller_c25c6d, .contentRegion_c25c6d, .contentRegionScroller_c25c6d {
+      background-color: transparent !important;
+    }
+
+
+/*call area bg */
+    .callContainer_d880dc, .wrapper_d880dc {
+          background-color: transparent !important;
+          backdrop-filter: blur(5px);
+          backdrop-filter: brightness(0.7);
+          background-image: url();
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+
+/*message type field */
+     .container_cbd271, .scrollableContainer_d0696b {
+      background-color: var(--juli-softbrown) !important;
+      opacity: 1;
+      backdrop-filter: blur(5px);
+    }
+
+    .container_cbd271 {
+      background-color: transparent !important;
+      backdrop-filter: blur(5px);
+      backdrop-filter: brightness(0.7);
+    }
+
+    .sidebarRegion_c25c6d, .member_a31c43, .members_cbd271, .container_ee69e0, .scroller_c47fa9, .searchBarComponent_f0963d, .privateChannels_f0963d {
+      background-color: transparent !important;
+    }
+
+    .panels_a4d4d9, .container_adcaac, .container_b2ca13 {
+      background-color: var(--juli-softbrown) !important;
+    }
+
+    .wrapper_fea3ef {
+      background-color: transparent !important;
+    }
+
+    /*dms list*/
+    .sidebar_a4d4d9 {
+      background-color: transparent;
+      backdrop-filter: blur(5px);
+      backdrop-filter: brightness(0.7);
+    }
+
+    .content_a4d4d9 {
+      backdrop-filter: blur(10px);
+      background-image: url("https://pbs.twimg.com/media/GUPhVS_XkAAP2Al?format=jpg&name=large") !important; /*changes main bg*/
+      background-color: transparent !important;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  
+
+/*friends/peoples tab*/
+    .container_c2739c {
+      background-color: transparent !important;
+    }
+
+    .upperContainer_fc4f04, .container_fc4f04, .sectionTitle_e0840, .searchBar_e0840f, .peopleColumn_c2739c {
+      background-color: transparent !important;
+    }
+
+.chat_a7d72e {
+  backdrop-filter: blur(10px);
+  background-image: url("https://pbs.twimg.com/media/GUPhVS_XkAAP2Al?format=jpg&name=large") !important; /*changes main bg*/
+  background-color: transparent !important;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content_a7d72e {
+  background-color: transparent !important;
+}
+
+.chatContent_a7d72e {
+  background-color: transparent !important;
+}
+
+/*message options menu*/
+    .menu_d90b3d, .buttonsInner_d5deea {
+      background-color: transparent !important;
+      backdrop-filter: blur(5px) brightness(1);
+    }
+
+/*emoji picker*/
+
+
+ /*call fuction buttons in main area*/   
+    .staticButton_ef18ee {
+      filter: opacity(0.3);
+    }
+
+    .staticButton_ef18ee:hover {
+      filter: opacity(1);
+    }
+
+    .contextMenuNub_ef18ee {
+      filter: opacity(0.2);
+    }
+
+    .contextMenuNub_ef18ee:hover {
+      filter: opacity(1);
+    }
+
+    [class="childWrapper_f90abb childWrapperNoHoverBg_f90abb"] {
+      background-color: black !important;
+      filter: brightness(0.5);
+    }
+
+    .wrapper_b6e2f9 button {
+      background-color: var(--juli-softpink) !important; /*main call area buttons*/
+    }
+
+    .controlIcon_ef18ee {
+      color: black !important;
+    }
+
+    .actionButtons_adcaac button {
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+
+    [class="wrapper_a24e84"]{
+      display: none;
+    }
+
+
+
+/* link colour */
+    .anchor_af404b {
+      color: var(--idle-grey) !important;
+    }
+
+    .anchor_af404b:hover {
+      color: var(--pink1) !important;
+    }
+
+
+/*server invites*/
+
+    .wrapper_a71a1c {
+      background-color: transparent !important;
+      backdrop-filter: blur(5px) brightness(0.8)
+    }
+
+/*gift/invite/etc buttons*/
+    .lookFilled_dd4f85 {
+      background-color: var(--juli-softpink) !important;
+      color: black !important;
+      transition: filter 0.2s;
+    }
+
+    .lookFilled_dd4f85:hover {
+      filter: brightness(0.5);
+    }
+
+    .actionButtons_adcaac button {
+      color: white !important;
+    }
+
+
+/* embeds */
+    .embedWrapper_b558d0 {
+      border-color: var(--juli-softpink) !important; /*coloured bit*/
+      background-color: transparent;
+      backdrop-filter: blur(5px) brightness(0.8);
+    }
+
+    .embedWrapper_b558d0:hover {
+      border-color: #ffffffda !important;
+    }
+
+/*nitro gift*/
+    .tile_ab47a1 {
+      background-color: transparent !important;
+      backdrop-filter: blur(5px) brightness(0.8);
+    }
+
+/*profile effect overlay*/
+    .profileEffects_f867f9 {
+      filter: opacity(0.2);
+    }
+
+
+ /*hide shop tabs in dms list*/
+    [data-list-item-id*="__nitro"] {
+      display: none;
+    }
+
+    [data-list-item-id*="__shop"] {
+      display: none;
+    }
+
+    [aria-label="Send a gift"]{
+      display: none;
+    }
+
+/*hide other ui buttons*/
+    [aria-label="Explore Discoverable Servers"]{
+      display: none; /*at bottom of servers list*/
+    }
+
+    [aria-label="Help"]{
+      display: none; /*at top of main area in dms*/
+    }
+
+    [aria-label="Open sticker picker"]{
+      display: none; /*in text input bar*/
+    }
+
+    .panel_bf1a22 {
+      display: none; /*stream active game, at bottom of dm list/above activity panel*/
+    }
+
+    [id="message-add-reaction"]{
+      display: none;
+    }
+
+    [id="message-tts"]{
+      display: none;
+    }
+
+    [id="message-report"]{
+      display: none;
+    }
+
+    .voiceEffectsActionBar_d7b7fd {
+      display: none; /*soundboard button in main call area*/
+    }
+
+
+/*hide tabs in settings*/
+
+    .premiumFeatureBorder_c6d722 { /*hide nitro ad in profile settings tab*/
+      display: none;
+    }
+
+    .container_da1432 {
+      display: none; /*hide nitro decor advert*/
+    }
+
+    [aria-controls="hypesquad-online-tab"]{
+      display: none;
+    }
+
+    [aria-label="Merch"]{
+      display: none;
+    }
+
+    [class="vc-cloud item_a0 themed_a0"] {
+      display: none;
+    }
+
+    [aria-label="Family Centre"]{
+      display: none;
+    }
+
+    [aria-label="Nitro"]{
+      display: none;
+    }
+
+    [class="socialLinks_c44e94"]{
+      display: none;
+    }
+
+
+/*modify server icons in closed folders*/
+    [class="icon_a64689 guildIcon_bc7085 iconSizeSmol_a64689 iconInactive_a64689"]{ 
+      filter: opacity(0.2) saturate(0);
+    }
+
+/*servers without icon*/
+    [class="acronym_a64689"]{
+      display: none;
+    }
+/*white thing next to unread server folders*/
+    [class="pill_a5ad63 wrapper_c4cd66"]{
+      display: none;
+    }
+
+
+/*vc member bg colour*/
+    [class="background_f3801e"]{
+      background-color: var(--pink1) !important;
+    }
+
+/*dm list pfps*/
+    [class="avatar_c51b4e"] {
+      filter: saturate();
+    }
+
+
+/*active call pfp, and server list icons*/
+    [class="icon_f90abb"]{
+      filter: opacity(0.8);
+    }
+
+/*online/invisible status text (below name), and call "voice connected" text*/
+    [class="default_e07331"] {
+      color: rgb(95, 95, 95);
+    }
+
+/*ping icon next to "voice connected"*/
+    [class="ping_c02c63"] {
+      filter: saturate(0) brightness(0.8);
+      transform: scale(1);
+    }
